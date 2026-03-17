@@ -19,9 +19,11 @@ def dashboard_trader():
 def buy_stock():
     return render_template('buy_stock.html')
 
+
 @app.route('/sell_stock')
 def sell_stock():
     return render_template('sell_stock.html')
+
 
 @app.route('/service_details_5')
 def service_details_5():
