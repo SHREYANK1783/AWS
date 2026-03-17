@@ -6,6 +6,7 @@ app = Flask(__name__)
 def home():
     return "Welcome to Stocker"
 
+
 @app.route('/dashboard_admin')
 def dashboard_admin():
     return render_template('dashboard_admin.html')
